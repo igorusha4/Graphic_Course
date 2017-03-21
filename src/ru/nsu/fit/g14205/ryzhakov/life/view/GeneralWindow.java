@@ -138,6 +138,7 @@ public class GeneralWindow extends JFrame implements CellView {
                 File file = fileChooser.getSelectedFile();
                 if(null != CellModel){
                     CellModel.save(file.getAbsolutePath(), cellPanel.getCellSettings());
+                    cellPanel.setIsChanged(false);
                 }
             }
         });
@@ -295,7 +296,7 @@ public class GeneralWindow extends JFrame implements CellView {
 
 
     public void onExit(){
-        if (cellPanel.isChanged()){
+        if (cellPanel.getIsChanged()){
             int reply = JOptionPane.showConfirmDialog(null, "Сохранить изменения?", "Выход",JOptionPane.YES_NO_OPTION);
             if (reply == JOptionPane.OK_OPTION){
                 JFileChooser fileChooser = new JFileChooser(System.getProperty("user.dir") + "\\Data\\");

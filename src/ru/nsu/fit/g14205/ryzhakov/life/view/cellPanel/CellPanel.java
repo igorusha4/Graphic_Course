@@ -90,7 +90,7 @@ public class CellPanel extends JPanel {
 
 
                 if(null != cell && (null == lastCell || !cell.equals(lastCell))){
-                    is_changed = true;
+                    setIsChanged(true);
                     lastCell = cell;
                     cellPanelClickListener.onClickOnCell(cell.get(0), cell.get(1));
                 }
@@ -106,8 +106,12 @@ public class CellPanel extends JPanel {
         addMouseMotionListener(mouseAdapter);
     }
 
-    public boolean isChanged(){
+    public boolean getIsChanged(){
         return is_changed;
+    }
+
+    public void setIsChanged(boolean changed){
+        is_changed = changed;
     }
 
     public CellSettings getCellSettings() {
