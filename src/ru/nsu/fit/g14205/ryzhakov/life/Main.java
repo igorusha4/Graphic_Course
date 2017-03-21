@@ -1,7 +1,7 @@
-package ru.nsu.fit.g14205.ryzhakov;
+package ru.nsu.fit.g14205.ryzhakov.life;
 
-import ru.nsu.fit.g14205.ryzhakov.model.GeneralModel;
-import ru.nsu.fit.g14205.ryzhakov.view.GeneralWindow;
+import ru.nsu.fit.g14205.ryzhakov.life.model.GeneralModel;
+import ru.nsu.fit.g14205.ryzhakov.life.view.GeneralWindow;
 
 import java.util.Timer;
 

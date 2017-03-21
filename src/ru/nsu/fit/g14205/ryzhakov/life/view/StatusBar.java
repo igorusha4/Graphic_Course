@@ -1,4 +1,4 @@
-package ru.nsu.fit.g14205.ryzhakov.view;
+package ru.nsu.fit.g14205.ryzhakov.life.view;
 
 import javax.swing.*;
 import javax.swing.border.BevelBorder;

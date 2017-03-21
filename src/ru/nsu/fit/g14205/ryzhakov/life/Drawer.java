@@ -1,4 +1,4 @@
-package ru.nsu.fit.g14205.ryzhakov;
+package ru.nsu.fit.g14205.ryzhakov.life;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

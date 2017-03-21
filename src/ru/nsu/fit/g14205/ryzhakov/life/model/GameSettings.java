@@ -1,4 +1,4 @@
-package ru.nsu.fit.g14205.ryzhakov.model;
+package ru.nsu.fit.g14205.ryzhakov.life.model;
 
 public class GameSettings implements Cloneable {
     private double lifeBegin = 2.0;

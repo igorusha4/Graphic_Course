@@ -1,8 +1,8 @@
-package ru.nsu.fit.g14205.ryzhakov.view.cellPanel;
+package ru.nsu.fit.g14205.ryzhakov.life.view.cellPanel;
 
-import ru.nsu.fit.g14205.ryzhakov.CellSettings;
-import ru.nsu.fit.g14205.ryzhakov.Drawer;
-import ru.nsu.fit.g14205.ryzhakov.model.cell.CellInterface;
+import ru.nsu.fit.g14205.ryzhakov.life.CellSettings;
+import ru.nsu.fit.g14205.ryzhakov.life.Drawer;
+import ru.nsu.fit.g14205.ryzhakov.life.model.cell.CellInterface;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,4 @@
-package ru.nsu.fit.g14205.ryzhakov.model.cell;
+package ru.nsu.fit.g14205.ryzhakov.life.model.cell;
 
 public interface CellInterface {
     int getWidth();

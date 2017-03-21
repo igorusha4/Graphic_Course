@@ -1,4 +1,4 @@
-package ru.nsu.fit.g14205.ryzhakov;
+package ru.nsu.fit.g14205.ryzhakov.life;
 
 public class CellSettings implements Cloneable {
     private int cellSize = 15;

@@ -1,17 +1,14 @@
-package ru.nsu.fit.g14205.ryzhakov.view.settingsWindow;
+package ru.nsu.fit.g14205.ryzhakov.life.view.settingsWindow;
 
-import ru.nsu.fit.g14205.ryzhakov.CellSettings;
-import ru.nsu.fit.g14205.ryzhakov.model.GameSettings;
-import ru.nsu.fit.g14205.ryzhakov.model.cell.CellInterface;
+import ru.nsu.fit.g14205.ryzhakov.life.CellSettings;
+import ru.nsu.fit.g14205.ryzhakov.life.model.GameSettings;
+import ru.nsu.fit.g14205.ryzhakov.life.model.cell.CellInterface;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.util.Map;
 
 
 public class SettingsWindow extends JDialog {

@@ -1,12 +1,12 @@
-package ru.nsu.fit.g14205.ryzhakov.view;
+package ru.nsu.fit.g14205.ryzhakov.life.view;
 
-import ru.nsu.fit.g14205.ryzhakov.CellSettings;
-import ru.nsu.fit.g14205.ryzhakov.Main;
-import ru.nsu.fit.g14205.ryzhakov.view.cellPanel.CellPanel;
-import ru.nsu.fit.g14205.ryzhakov.model.cell.CellInterface;
-import ru.nsu.fit.g14205.ryzhakov.view.cellPanel.CellPanelClickListener;
-import ru.nsu.fit.g14205.ryzhakov.view.settingsWindow.SettingsWindow;
-import ru.nsu.fit.g14205.ryzhakov.model.CellModel;
+import ru.nsu.fit.g14205.ryzhakov.life.CellSettings;
+import ru.nsu.fit.g14205.ryzhakov.life.Main;
+import ru.nsu.fit.g14205.ryzhakov.life.view.cellPanel.CellPanel;
+import ru.nsu.fit.g14205.ryzhakov.life.model.cell.CellInterface;
+import ru.nsu.fit.g14205.ryzhakov.life.view.cellPanel.CellPanelClickListener;
+import ru.nsu.fit.g14205.ryzhakov.life.view.settingsWindow.SettingsWindow;
+import ru.nsu.fit.g14205.ryzhakov.life.model.CellModel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -315,7 +315,7 @@ public class GeneralWindow extends JFrame implements CellView {
     private CellModel CellModel;
 
     @Override
-    public void connectCellModel(ru.nsu.fit.g14205.ryzhakov.model.CellModel CellModel) {
+    public void connectCellModel(ru.nsu.fit.g14205.ryzhakov.life.model.CellModel CellModel) {
         this.CellModel = CellModel;
     }
 

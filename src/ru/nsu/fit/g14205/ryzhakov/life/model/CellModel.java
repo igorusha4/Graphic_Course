@@ -1,7 +1,7 @@
-package ru.nsu.fit.g14205.ryzhakov.model;
+package ru.nsu.fit.g14205.ryzhakov.life.model;
 
-import ru.nsu.fit.g14205.ryzhakov.CellSettings;
-import ru.nsu.fit.g14205.ryzhakov.view.CellView;
+import ru.nsu.fit.g14205.ryzhakov.life.CellSettings;
+import ru.nsu.fit.g14205.ryzhakov.life.view.CellView;
 
 public interface CellModel {
     GameSettings getGameSettings();
