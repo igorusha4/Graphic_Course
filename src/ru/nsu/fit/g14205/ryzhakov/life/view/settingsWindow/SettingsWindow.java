@@ -12,7 +12,7 @@ import java.awt.event.MouseEvent;
 
 
 public class SettingsWindow extends JDialog {
-    static final int MIN_FIELD_SIZE = 1;
+    static final int MIN_FIELD_SIZE = 2;
     static final int MAX_FIELD_SIZE = 50;
     JPanel panel = new JPanel();
 
