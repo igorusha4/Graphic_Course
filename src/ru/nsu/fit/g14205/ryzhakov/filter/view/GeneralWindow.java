@@ -149,6 +149,7 @@ public class GeneralWindow extends JFrame implements FilterView {
                 File file = fileChooser.getSelectedFile();
                 if(null != imageModel){
                     imageModel.load(file.getAbsolutePath());
+                    imagePanel.loadImage();
                     imagePanel.repaint();
                 }
             }
